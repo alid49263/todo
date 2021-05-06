@@ -1,0 +1,33 @@
+.input{
+    display: grid;
+    place-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(90,215,149,.5);;
+}
+.input__feild{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(74,210,149,.5);
+    padding: 10px;
+    border-radius: 5px;
+    width:50%
+}
+.form{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.input__feild>img{
+    height:25px;
+    cursor: pointer;
+}
+.input__feild>input{
+    flex:1;
+    border: none;
+    outline: none;
+    background: none;
+}
+.input__feild>img:hover{
+    transform: scale(1.2);
+}

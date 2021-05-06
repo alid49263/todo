@@ -1,0 +1,26 @@
+.list>img{
+    height: 25px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    align-items: center;
+    height:fit-content;
+    width:90%;
+    justify-content: space-between;
+    background-color: #e7d4b5;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 1px solid #d5ecc2;
+}
+.list>p{
+    font-size: large;
+    color: #34656d;
+    font-weight: 700;
+}
+.list>img:hover{
+    transform: scale(1.2);
+}

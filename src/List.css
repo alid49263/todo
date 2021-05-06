@@ -1,0 +1,43 @@
+.container{
+    display:grid;
+    place-items: center;
+    height:90vh;
+    width:100vw;
+    background-color: aliceblue;
+}
+.messs{
+    height: 80vh;
+    width:90vw;
+    font-size: 2.5rem;
+    color:#34656D;
+    background-color: #c6ffc1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.messs::-webkit-scrollbar {
+    width: 15px;              
+  }
+  
+.messs::-webkit-scrollbar-track {
+    background: #c6ffc1; 
+    border-radius: 10px;        
+  }
+  
+ .messs::-webkit-scrollbar-thumb {
+    background-color: black;    
+    border-radius: 20px;     
+  }
+.mess{
+    height: 80vh;
+    width:90vw;
+    font-size: 2.5rem;
+    color:#34656D;
+    background-color: #c6ffc1;
+    border-radius: 100px;
+    display: grid;
+    place-items: center;
+}
